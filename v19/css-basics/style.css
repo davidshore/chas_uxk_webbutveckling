@@ -1,0 +1,40 @@
+* {
+  color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/*.header {
+  color: blue;
+}
+*/
+
+.box1 {
+  color: green;
+}
+
+.box2 {
+  color: red;
+}
+
+#box3 {
+  color: purple;
+}
+
+p.box4 {
+  color: pink;
+}
+
+div.order {
+  color: red;
+}
+
+.order {
+  color: green;
+}

@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+/* Min box */
+.myBox {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  border: solid black 5px;
+
+  margin: 20px;
+}
+
+.myBox2 {
+  display: block;
+  background-color: blue;
+  color: white;
+  width: 50%;
+}
+
+.mySpan {
+  display: inline-block;
+  background-color: green;
+  margin: 20px;
+}
