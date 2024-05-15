@@ -1,0 +1,17 @@
+.dog {
+  width: 500px;
+  height: auto;
+}
+
+.bgImage {
+  background-image: url(./assets/dog.jpg);
+  background-color: aqua;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.myVideo {
+  width: 100%;
+}

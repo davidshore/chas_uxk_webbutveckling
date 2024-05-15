@@ -1,0 +1,30 @@
+/*
+  R  G  B
+ #00 00 00
+
+*/
+/*
+  16 * 16 = 256
+
+*/
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #0000ff;
+  background-color: rgb(256, 0, 0);
+  background-color: rgba(0, 0, 0, 0.1);
+  background-color: hsl(20, 50%, 50%);
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(70, 50%, 50%);
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(100, 50%, 50%);
+}
