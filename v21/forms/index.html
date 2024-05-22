@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="myForm" action="https://httpbin.org/anything" method="post">
+      <div class="names">
+        <div class="inputName">
+          <label for="firstName">First name</label>
+          <input
+            id="firstName"
+            name="firstName"
+            type="text"
+            required
+            aria-required="true"
+          />
+        </div>
+
+        <div class="inputName">
+          <label for="lastName">Last name</label>
+          <input id="lastName" name="lastName" type="text" />
+        </div>
+      </div>
+
+      <div class="inputName">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" />
+      </div>
+
+      <div class="inputName">
+        <label for="msg">Message</label>
+        <textarea id="msg" name="message"></textarea>
+      </div>
+
+      <div class="inputName">
+        <label for="pet">Choose a pet</label>
+        <select id="pet" name="pet">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+        </select>
+      </div>
+
+      <button class="btn" type="submit">Skicka</button>
+    </form>
+  </body>
+</html>
