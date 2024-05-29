@@ -1,0 +1,71 @@
+.animated-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  left: 200px;
+
+  animation-name: moveBox;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.fade-in-box {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+}
+
+.rotate-box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes moveBox {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 200px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+/* transition: 
+- beskriv vilken egenskap som ska ändras och 
+- hur ändringen ska ske */
+.hover-box {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  transition: all 300ms ease-in;
+}
+
+.hover-box:hover {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}

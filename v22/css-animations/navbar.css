@@ -1,0 +1,71 @@
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  height: 70px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 30px;
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  top: 70px;
+  left: -210px;
+  width: 150px;
+  background-color: #333;
+  transition: left 0.3s ease-in-out;
+}
+
+.menu li {
+  margin: 10px 15px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu.active {
+  left: 0px;
+}
+
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .menu {
+    position: static;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    transform: none;
+    transition: none;
+    opacity: 1;
+  }
+
+  .menu li {
+    margin: 0 15px;
+  }
+}
